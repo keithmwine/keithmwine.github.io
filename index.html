@@ -10,24 +10,29 @@
       #exec-bio {
         background-color: lightgray;
       }
-      #foo {
-        background-color: orange;
-      }
       .bio-box {
         border: 1px solid black;
+        width: 75%;
+        width: 50%;
       }
       .bio-box a {
         color: green;
       }
-      .azure-box {
-        background-color: azure;
+      .bio-box a {
+        color: pink;
       }
+      .alert {
+        background: red;
+      }
+      /*#exec-bio.alert {
+        background: red;
+      }*/
     </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
-      <li id="foo">
+      <li>
         <a href="https://example.com/">Link</a>
       </li>
       <li>
@@ -38,16 +43,16 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div id="exec-bio" class="bio-box azure-box">
+    <div id="exec-bio" class="bio-box alert">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box azure-box">
+    <div class="bio-box">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box azure-box">
+    <div class="bio-box">
       <a href="https://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box azure-box">
+    <div class="bio-box alert">
       <a href="https://example.com/">I'm a link</a>
     </div>
   </body>
